@@ -1,4 +1,5 @@
-import { doSomething} from './utils';
+export const doSomething = (name:string) => {
+	console.log("You are doing something great, " + name);	
+}
 
-doSomething("Joe")
 
