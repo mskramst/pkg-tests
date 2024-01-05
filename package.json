@@ -1,6 +1,6 @@
 {
   "name": "@mskramst/pkg-tests",
-  "version": "0.0.21",
+  "version": "0.0.3",
   "description": "testing npm packages",
   "main": "./dist/index.ts",
   "module": "./dist/index.mjg",
