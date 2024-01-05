@@ -1,4 +1,4 @@
-const doSomething = (name:string) => {
+const doSomething = (name) => {
 	console.log("You are doing something great, " + name);	
 }
 
