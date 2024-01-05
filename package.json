@@ -1,9 +1,9 @@
 {
   "name": "@mskramst/pkg-tests",
-  "version": "0.0.33",
+  "version": "0.0.35",
   "description": "testing npm packages",
   "main": "./dist/index.ts",
-  "module": "./dist/index.mjg",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs, esm --dts",
