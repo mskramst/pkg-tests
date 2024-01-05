@@ -1,0 +1,20 @@
+{
+  "name": "@mskramst/pkg-tests",
+  "version": "0.0.1",
+  "description": "testing npm packages",
+  "main": "./dist/index.ts",
+  "module": "./dist/index.mjg",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs, esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
